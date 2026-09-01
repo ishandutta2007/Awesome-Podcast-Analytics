@@ -1,0 +1,153 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0f19" />
+      <stop offset="50%" stop-color="#111827" />
+      <stop offset="100%" stop-color="#1f153a" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6366f1" />
+      <stop offset="50%" stop-color="#a855f7" />
+      <stop offset="100%" stop-color="#ec4899" />
+    </linearGradient>
+    <linearGradient id="cyanGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06b6d4" />
+      <stop offset="100%" stop-color="#3b82f6" />
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+    <filter id="subtleGlow">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <style>
+    @keyframes pulseGlow {
+      0%, 100% { opacity: 0.4; transform: scale(1); }
+      50% { opacity: 0.8; transform: scale(1.05); }
+    }
+    @keyframes barDance1 {
+      0%, 100% { height: 18px; y: 220px; }
+      50% { height: 65px; y: 173px; }
+    }
+    @keyframes barDance2 {
+      0%, 100% { height: 45px; y: 193px; }
+      50% { height: 95px; y: 143px; }
+    }
+    @keyframes barDance3 {
+      0%, 100% { height: 75px; y: 163px; }
+      50% { height: 30px; y: 208px; }
+    }
+    @keyframes barDance4 {
+      0%, 100% { height: 90px; y: 148px; }
+      50% { height: 50px; y: 188px; }
+    }
+    @keyframes barDance5 {
+      0%, 100% { height: 35px; y: 203px; }
+      50% { height: 80px; y: 158px; }
+    }
+    @keyframes floatParticle {
+      0%, 100% { transform: translate(0, 0); opacity: 0.3; }
+      50% { transform: translate(15px, -20px); opacity: 0.8; }
+    }
+    .bar1 { animation: barDance1 1.8s ease-in-out infinite; }
+    .bar2 { animation: barDance2 2.1s ease-in-out infinite; }
+    .bar3 { animation: barDance3 1.6s ease-in-out infinite; }
+    .bar4 { animation: barDance4 2.3s ease-in-out infinite; }
+    .bar5 { animation: barDance5 1.9s ease-in-out infinite; }
+    .title-text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-weight: 800; }
+    .sub-text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-weight: 400; }
+  </style>
+
+  <!-- Background Canvas -->
+  <rect width="1200" height="400" rx="16" fill="url(#bgGrad)" />
+  <rect width="1196" height="396" x="2" y="2" rx="14" fill="none" stroke="url(#accentGrad)" stroke-width="1.5" opacity="0.6" />
+
+  <!-- Ambient Glow Orbs -->
+  <circle cx="200" cy="150" r="140" fill="#6366f1" opacity="0.15" filter="url(#glow)" />
+  <circle cx="1000" cy="250" r="180" fill="#ec4899" opacity="0.12" filter="url(#glow)" />
+  <circle cx="600" cy="350" r="120" fill="#06b6d4" opacity="0.1" filter="url(#glow)" />
+
+  <!-- Grid lines background -->
+  <g opacity="0.07" stroke="#ffffff" stroke-width="1">
+    <line x1="0" y1="80" x2="1200" y2="80" />
+    <line x1="0" y1="160" x2="1200" y2="160" />
+    <line x1="0" y1="240" x2="1200" y2="240" />
+    <line x1="0" y1="320" x2="1200" y2="320" />
+    <line x1="240" y1="0" x2="240" y2="400" />
+    <line x1="480" y1="0" x2="480" y2="400" />
+    <line x1="720" y1="0" x2="720" y2="400" />
+    <line x1="960" y1="0" x2="960" y2="400" />
+  </g>
+
+  <!-- Animated Floating Particles -->
+  <circle cx="150" cy="100" r="3" fill="#a855f7" style="animation: floatParticle 4s ease-in-out infinite;" />
+  <circle cx="420" cy="80" r="2.5" fill="#06b6d4" style="animation: floatParticle 5s ease-in-out infinite 1s;" />
+  <circle cx="850" cy="120" r="3" fill="#ec4899" style="animation: floatParticle 4.5s ease-in-out infinite 0.5s;" />
+  <circle cx="1050" cy="180" r="2" fill="#6366f1" style="animation: floatParticle 3.8s ease-in-out infinite 1.5s;" />
+  <circle cx="300" cy="320" r="3.5" fill="#ec4899" style="animation: floatParticle 4.2s ease-in-out infinite 2s;" />
+
+  <!-- Icon: Podcast Mic & Analytics -->
+  <g transform="translate(90, 110)">
+    <circle cx="60" cy="80" r="70" fill="none" stroke="#6366f1" stroke-width="1.5" opacity="0.3" stroke-dasharray="6,4">
+      <animateTransform attributeName="transform" type="rotate" from="0 60 80" to="360 60 80" dur="20s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="60" cy="80" r="50" fill="none" stroke="#a855f7" stroke-width="1.5" opacity="0.5" />
+    <circle cx="60" cy="80" r="30" fill="none" stroke="#ec4899" stroke-width="1.5" opacity="0.7" />
+
+    <rect x="50" y="55" width="20" height="35" rx="10" fill="url(#accentGrad)" filter="url(#subtleGlow)" />
+    <path d="M 42 75 C 42 92, 78 92, 78 75" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" />
+    <line x1="60" y1="92" x2="60" y2="105" stroke="#ffffff" stroke-width="3" stroke-linecap="round" />
+    <line x1="48" y1="105" x2="72" y2="105" stroke="#ffffff" stroke-width="3" stroke-linecap="round" />
+  </g>
+
+  <!-- Title & Subtitle -->
+  <text class="title-text" x="250" y="155" font-size="44" fill="url(#accentGrad)" filter="url(#subtleGlow)">AWESOME PODCAST ANALYTICS</text>
+  <text class="sub-text" x="250" y="195" font-size="20" fill="#94a3b8" letter-spacing="1">Curated List of SaaS Platforms &amp; Open-Source Ecosystems</text>
+  <text class="sub-text" x="250" y="228" font-size="15" fill="#64748b">🎧 Downloads • 📊 Audience Measurement • 🎯 Attribution • 📡 Prefix Analytics • 📈 Intelligence</text>
+
+  <!-- Animated Dynamic Equalizer Waveform & Metrics Card -->
+  <g transform="translate(860, 100)">
+    <rect x="0" y="0" width="260" height="170" rx="12" fill="#1e293b" fill-opacity="0.6" stroke="#475569" stroke-width="1" />
+    <text class="title-text" x="20" y="32" font-size="13" fill="#cbd5e1" font-weight="600">LIVE AUDIO &amp; METRICS</text>
+    <circle cx="235" cy="27" r="5" fill="#10b981">
+      <animate attributeName="opacity" values="1;0.2;1" dur="1.5s" repeatCount="indefinite" />
+    </circle>
+
+    <!-- Animated Equalizer Bars -->
+    <rect class="bar1" x="25" y="180" width="10" rx="4" fill="url(#cyanGrad)" />
+    <rect class="bar2" x="43" y="160" width="10" rx="4" fill="url(#accentGrad)" />
+    <rect class="bar3" x="61" y="150" width="10" rx="4" fill="url(#cyanGrad)" />
+    <rect class="bar4" x="79" y="130" width="10" rx="4" fill="url(#accentGrad)" />
+    <rect class="bar5" x="97" y="170" width="10" rx="4" fill="url(#cyanGrad)" />
+    <rect class="bar2" x="115" y="140" width="10" rx="4" fill="url(#accentGrad)" />
+    <rect class="bar4" x="133" y="155" width="10" rx="4" fill="url(#cyanGrad)" />
+    <rect class="bar1" x="151" y="175" width="10" rx="4" fill="url(#accentGrad)" />
+    <rect class="bar3" x="169" y="145" width="10" rx="4" fill="url(#cyanGrad)" />
+    <rect class="bar5" x="187" y="165" width="10" rx="4" fill="url(#accentGrad)" />
+    <rect class="bar2" x="205" y="150" width="10" rx="4" fill="url(#cyanGrad)" />
+    <rect class="bar4" x="223" y="180" width="10" rx="4" fill="url(#accentGrad)" />
+
+    <!-- Mini KPI line chart underneath -->
+    <path d="M 25 105 Q 80 75, 140 95 T 235 65" fill="none" stroke="#ec4899" stroke-width="2.5" opacity="0.85" />
+    <circle cx="235" cy="65" r="4" fill="#ec4899" filter="url(#subtleGlow)" />
+  </g>
+
+  <!-- Bottom Badges Strip -->
+  <g transform="translate(250, 260)">
+    <rect x="0" y="0" width="160" height="34" rx="17" fill="#312e81" fill-opacity="0.8" stroke="#6366f1" stroke-width="1"/>
+    <text class="title-text" x="18" y="22" font-size="13" fill="#a5b4fc">🌟 45+ Platforms</text>
+
+    <rect x="175" y="0" width="160" height="34" rx="17" fill="#581c87" fill-opacity="0.8" stroke="#a855f7" stroke-width="1"/>
+    <text class="title-text" x="193" y="22" font-size="13" fill="#e9d5ff">📊 IAB 2.2 Metrics</text>
+
+    <rect x="350" y="0" width="160" height="34" rx="17" fill="#831843" fill-opacity="0.8" stroke="#ec4899" stroke-width="1"/>
+    <text class="title-text" x="368" y="22" font-size="13" fill="#fbcfe8">🔓 Open-Source</text>
+
+    <rect x="525" y="0" width="160" height="34" rx="17" fill="#14532d" fill-opacity="0.8" stroke="#22c55e" stroke-width="1"/>
+    <text class="title-text" x="543" y="22" font-size="13" fill="#bbf7d0">✅ Curated 2026</text>
+  </g>
+</svg>
