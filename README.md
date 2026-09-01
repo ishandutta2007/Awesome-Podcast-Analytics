@@ -29,67 +29,30 @@ How to Contribute
 
 Disclaimer
 
-SaaS/Hosted Platforms
+## SaaS/Hosted Platforms
 
-Chartable
-Podcast analytics and attribution platform known for download analytics, SmartLinks, attribution measurement, audience intelligence, and podcast marketing analytics.
-
-Podsights
-Podcast advertising measurement and attribution platform focused on campaign analytics, audience attribution, conversion measurement, and podcast advertising intelligence.
-
-Podtrac
-Podcast measurement and analytics provider offering audience measurement, download statistics, rankings, advertising measurement, and industry reporting.
-
-Spotify for Creators
-Podcast publishing and analytics platform providing creators with audience insights, episode performance, listener trends, consumption information, and Spotify distribution tools.
-
-Transistor Analytics
-Podcast hosting platform with analytics for downloads, listener trends, episode performance, geographic distribution, podcast applications, and audience growth.
-
-Simplecast
-Podcast hosting and analytics platform providing download statistics, audience insights, distribution data, episode performance, and publishing workflows.
-
-Libsyn Stats
-Podcast hosting analytics platform providing download statistics, audience information, geographic reports, publishing analytics, and podcast performance reporting.
-
-Blubrry Statistics
-Podcast analytics and hosting ecosystem offering podcast download statistics, audience measurement, publishing tools, and integration with podcast websites.
-
-OP3
-Open and privacy-focused podcast prefix analytics service providing public podcast download metrics, request-level data, app and geographic information, and an API-driven analytics model. OP3 is unusual in combining an operational analytics service with an open-source and auditable codebase.
-
-Backtracks
-Podcast hosting and analytics platform focused on podcast intelligence, audience measurement, listener engagement, content analytics, and business podcasting.
-
-Buzzsprout
-Podcast hosting platform with download analytics, listener statistics, episode performance reporting, directories, and podcast publishing tools.
-
-Captivate
-Podcast hosting and analytics platform providing download statistics, listener insights, marketing tools, growth analytics, and podcast business features.
-
-Acast
-Podcast hosting, distribution, advertising, and analytics platform supporting publishers, creators, and podcast networks.
-
-Megaphone
-Enterprise podcast hosting and advertising platform providing distribution, monetization, audience analytics, and podcast advertising workflows.
-
-RedCircle
-Podcast hosting and monetization platform offering audience analytics, distribution, advertising tools, subscriptions, and growth features.
-
-Podbean
-Podcast hosting platform with publishing tools, download statistics, audience analytics, monetization, and podcast distribution.
-
-RSS.com
-Podcast hosting and distribution platform offering publishing tools, audience analytics, RSS feed management, and podcast performance reporting.
-
-Ausha
-Podcast marketing and hosting platform providing analytics, audience intelligence, distribution tools, discoverability, and promotional workflows.
-
-Podscribe
-Podcast intelligence and advertising measurement platform focused on monitoring, attribution, audience insights, brand measurement, and campaign analytics.
-
-Magellan AI
-Podcast advertising intelligence platform providing advertising market analysis, campaign monitoring, competitive intelligence, and podcast advertising insights.
+| Product | Description | Pricing | Free Tier / Trial Limit |
+|---|---|---|---|
+| **Chartable** | Podcast analytics and attribution platform known for download analytics, SmartLinks, attribution measurement, audience intelligence, and podcast marketing analytics. *(Service sunset in Dec 2024)* | Starts at $20/month (Pro tier; previously offered $0 basic plan) | Free forever plan supported up to 5,000 monthly downloads with basic analytics & SmartLinks. |
+| **Podsights** | Podcast advertising measurement and attribution platform focused on campaign analytics, audience attribution, conversion measurement, and podcast advertising intelligence. *(Integrated into Spotify Ad Analytics)* | $0 (Free for Spotify advertisers) / Custom attribution historically starting at ~$500/month | Free forever for verified audio ad campaign measurement on Spotify Ad Analytics without monthly caps. |
+| **Podtrac** | Podcast measurement and analytics provider offering audience measurement, download statistics, rankings, advertising measurement, and industry reporting. | Starts at $20/month (Grow Your Show plan) | Free forever ("Getting Started" plan) with unlimited downloads, unlimited shows, IAB-certified metrics, and demographic insights. |
+| **Spotify for Creators** | Podcast publishing and analytics platform providing creators with audience insights, episode performance, listener trends, consumption information, and Spotify distribution tools. | $0/month (100% Free) | Free forever with unlimited audio/video hosting, unlimited storage, unlimited bandwidth, and full analytics dashboard (monetization requires 3 episodes, 2,000 consumption hours & 1,000 unique listeners in 30 days). |
+| **Transistor Analytics** | Podcast hosting platform with analytics for downloads, listener trends, episode performance, geographic distribution, podcast applications, and audience growth. | Starts at $19/month (Starter plan; $190/year) | 14-day free trial with full access to all features (unlimited podcasts, unlimited storage, advanced analytics, up to 20,000 downloads/month); no permanent free tier. |
+| **Simplecast** | Podcast hosting and analytics platform providing download statistics, audience insights, distribution data, episode performance, and publishing workflows. | Starts at $15/month (Basic plan; $135/year) | 14-day free trial with full platform access (up to 20,000 downloads/month, unlimited storage, 2 team seats, no credit card required); no permanent free tier. |
+| **Libsyn Stats** | Podcast hosting analytics platform providing download statistics, audience information, geographic reports, publishing analytics, and podcast performance reporting. | Starts at $5/month (Libsyn 3hr plan) to $12/month (Basic with Advanced Stats) | 30-day free trial (available via promo codes/new signups, with 3 to 6 hours monthly upload capacity); no permanent free tier. |
+| **Blubrry Statistics** | Podcast analytics and hosting ecosystem offering podcast download statistics, audience measurement, publishing tools, and integration with podcast websites. | Starts at $5/month (Standalone Standard Stats) or $7/month (Standard 1.5 Hosting) | Free forever Statistics tier providing basic download and geolocation metrics; 30-day free trial available for hosting plans. |
+| **OP3** | Open and privacy-focused podcast prefix analytics service providing public podcast download metrics, request-level data, app and geographic information, and an API-driven analytics model. | $0/month (100% Free & Open-Source) | Free forever with unlimited podcasts, unlimited downloads, public web dashboards, and unrestricted REST API access. |
+| **Backtracks** | Podcast hosting and analytics platform focused on podcast intelligence, audience measurement, listener engagement, content analytics, and business podcasting. *(Service shut down in May 2023)* | Starts at $39/month (Starter tier prior to shutdown) / Enterprise custom | 14-day free trial historically (up to 10,000 downloads/month); no permanent free tier. |
+| **Buzzsprout** | Podcast hosting platform with download analytics, listener statistics, episode performance reporting, directories, and podcast publishing tools. | Starts at $12/month (3 hours upload/month) or $19/month (6 hours upload/month) | 90-day free trial plan with 2 hours audio upload per month and standard analytics (episodes expire and are removed from feed after 90 days); no credit card required. |
+| **Captivate** | Podcast hosting and analytics platform providing download statistics, listener insights, marketing tools, growth analytics, and podcast business features. | Starts at $19/month (Personal plan; $17/month billed annually) | 30-day free trial with full platform features (unlimited podcasts, unlimited storage, up to 30,000 monthly downloads); no permanent free tier. |
+| **Acast** | Podcast hosting, distribution, advertising, and analytics platform supporting publishers, creators, and podcast networks. | Starts at $14.99/month (Starter plan billed annually) or $25/month | Free forever ("Starter" plan) limited to 1 podcast show and max 5 published episodes with basic analytics and distribution (credit card required for verification). |
+| **Megaphone** | Enterprise podcast hosting and advertising platform providing distribution, monetization, audience analytics, and podcast advertising workflows. | Starts at $99/month (Base publisher tier, scales with download impressions/CPM) | No permanent free tier or self-serve free trial; access granted via guided enterprise product demo and pilot agreement. |
+| **RedCircle** | Podcast hosting and monetization platform offering audience analytics, distribution, advertising tools, subscriptions, and growth features. | Starts at $12/month (Growth plan; $9/month billed annually) | Free forever ("Core" plan) with 1 podcast per account, 200 MB/episode file limit, unlimited storage & bandwidth, and ad monetization; 7-day free trial for paid plans. |
+| **Podbean** | Podcast hosting platform with publishing tools, download statistics, audience analytics, monetization, and podcast distribution. | Starts at $14/month (Unlimited Audio; $9/month billed annually) | Free forever ("Basic" plan) with 5 hours (500 MB) total storage, 100 GB monthly bandwidth, max 3 episodes/day, 100 MB/file limit; 14-day free trial on paid plans. |
+| **RSS.com** | Podcast hosting and distribution platform offering publishing tools, audience analytics, RSS feed management, and podcast performance reporting. | Starts at $14.99/month (All-in-One Audio; $11.99/month billed annually, $4.99/mo for students) | Free forever plan with unlimited episodes and storage, 1 podcast show, and access to the latest 30 days of analytics history (credit card required for verification). |
+| **Ausha** | Podcast marketing and hosting platform providing analytics, audience intelligence, distribution tools, discoverability, and promotional workflows. | Starts at $15/month (Launch plan; $13/month billed annually) | 14-day free trial with full access to Launch tier features (1 podcast, unlimited episodes and storage, basic analytics); no permanent free tier. |
+| **Podscribe** | Podcast intelligence and advertising measurement platform focused on monitoring, attribution, audience insights, brand measurement, and campaign analytics. | Starts at $250/month platform fee + $1.50 CPM for first 2M impressions | No permanent free tier or self-serve free trial; pilot testing and guided product demo available for qualified advertisers upon sales request. |
+| **Magellan AI** | Podcast advertising intelligence platform providing advertising market analysis, campaign monitoring, competitive intelligence, and podcast advertising insights. | Starts at $500/month (Estimated starting intelligence tier / custom annual agreements) | No permanent free tier or self-serve free trial; custom sandbox trial and guided demo available upon consultation with enterprise sales team. |
 
 Open-Source GitHub Projects
 
